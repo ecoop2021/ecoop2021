@@ -1,6 +1,6 @@
 # Type-Directed Operational Semantics for Gradual Typing (artifact)
 
-Abstract
+## Abstract
 
 This artifact contains the Coq formulation of \B, \Bg and \Br associated with 
 the paper "Type-Directed Operational Semantics for Gradual Typing". This document 
