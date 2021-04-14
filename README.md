@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This artifact contains the Coq formulation of \B, \Bg and \Br associated with 
+This artifact contains the Coq formulation of \B, \Bg and \Br calculus associated with 
 the paper "Type-Directed Operational Semantics for Gradual Typing". This document 
 explains how to run the Coq formulations and Coq files briefly. Artifact 
 can either be compiled in the pre-built docker image with all the 
