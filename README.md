@@ -1,4 +1,3 @@
-
 # Type-Directed Operational Semantics for Gradual Typing (artifact)
 
 # 1) Docker Image #
@@ -58,7 +57,10 @@ This section explains how to build the artifact from scratch
 
 1. Enter  `coq/Calculus` or `coq/Variant`  directory.
 
-2. Type `make` in the terminal to build and compile the proofs.
+2. Please make sure to run the following command before running make if 
+   you installed the Coq via opam : `eval \$(opam env)`.
+
+3. Type `make` in the terminal to build and compile the proofs.
 
 
 ## Proof Structure
@@ -78,4 +80,3 @@ This section explains how to build the artifact from scratch
 - `Type_Safety.v` contains the proofs of the type preservation and progress properties.
 - `soundness.v` contains the proofs of the soundness theorem with respect to blame calculus.
 - `soundness_blame.v` contains the proofs of the soundness theorem with respect to blame calculus.
-
