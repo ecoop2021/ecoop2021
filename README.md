@@ -57,8 +57,8 @@ This section explains how to build the artifact from scratch
 
 1. Enter  `coq/Calculus` or `coq/Variant`  directory.
 
-2. Please make sure to run the following command before running make if 
-   you installed the Coq via opam : `eval \$(opam env)`.
+2. Please make sure to run the command `eval \$(opam env)` before running make if 
+   you installed the Coq via opam. 
 
 3. Type `make` in the terminal to build and compile the proofs.
 
