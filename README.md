@@ -1,5 +1,13 @@
 # Type-Directed Operational Semantics for Gradual Typing (artifact)
 
+Abstract
+
+This artifact contains the Coq formulation of \B, \Bg and \Br associated with 
+the paper "Type-Directed Operational Semantics for Gradual Typing". This document 
+explains how to run the Coq formulations and Coq files briefly. Artifact 
+can either be compiled in the pre-built docker image with all the 
+dependencies installed or it could be built from the scratch.
+
 # 1) Docker Image #
 
 This section explains how to pull the docker image of artifact from docker repo and use it.
