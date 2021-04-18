@@ -75,8 +75,9 @@ This section explains how to build the artifact from scratch
 
 - `Calculus` directory contains the definition and proofs of \B and \Bg
 - `Variant` directory contains the definition and proofs of \Br 
-- `syntax_ott.v` contains the locally nameless definitions of the calculi.
-- `syntaxb_ott.v` contains the locally nameless definitions of the blame calculi.
+- `Calculus/syntax_ott.v` contains the locally nameless definitions of \Bg.
+- `Variant/syntax_ott.v` contains the locally nameless definitions of \Br.
+- `Calculus/syntaxb_ott.v` contains the locally nameless definitions of \B.
 - `rules_inf.v` and `rulesb_inf.v` contains the `lngen` generated code.
 - `Infrastructure.v` contains the type systems of the calculi and some lemmas.
 - `Infrastructure_b.v` contains the type systems of the blame calculi and some lemmas.
