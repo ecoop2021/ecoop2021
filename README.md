@@ -73,8 +73,8 @@ This section explains how to build the artifact from scratch
 
 ## Proof Structure
 
-- `calculus` directory contains the definition and proofs of the  calculus
-- `variant` directory contains the definition and proofs of the 
+- `Calculus` directory contains the definition and proofs of \B and \Bg
+- `Variant` directory contains the definition and proofs of \Br 
 - `syntax_ott.v` contains the locally nameless definitions of the calculi.
 - `syntaxb_ott.v` contains the locally nameless definitions of the blame calculi.
 - `rules_inf.v` and `rulesb_inf.v` contains the `lngen` generated code.
